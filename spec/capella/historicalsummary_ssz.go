@@ -4,7 +4,7 @@
 package capella
 
 import (
-	ssz "github.com/ferranbt/fastssz"
+	ssz "github.com/MEV-HEPU/fastssz"
 )
 
 // MarshalSSZ ssz marshals the HistoricalSummary object

@@ -4,7 +4,7 @@
 package deneb
 
 import (
-	ssz "github.com/ferranbt/fastssz"
+	ssz "github.com/MEV-HEPU/fastssz"
 	"github.com/holiman/uint256"
 )
 

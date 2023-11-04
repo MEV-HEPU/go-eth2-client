@@ -13,6 +13,6 @@
 
 package api
 
-// Need to `go install github.com/ferranbt/fastssz/sszgen@latest` for this to work.
+// Need to `go install github.com/MEV-HEPU/fastssz/sszgen@latest` for this to work.
 //go:generate rm -f versionedblindedbeaconblock_encoding.go blindedbeaconblock_encoding.go signedblindedbeaconblock_encoding.go validatorregistration_encoding.go
 //go:generate /home/jgm/sszgen -include ../spec -path . -exclude-objs DataVersion -objs VersionedBlindedBeaconBlock

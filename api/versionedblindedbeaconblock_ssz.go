@@ -7,7 +7,7 @@ import (
 	apiv1bellatrix "github.com/MEV-HEPU/go-eth2-client/api/v1/bellatrix"
 	apiv1capella "github.com/MEV-HEPU/go-eth2-client/api/v1/capella"
 	"github.com/MEV-HEPU/go-eth2-client/spec"
-	ssz "github.com/ferranbt/fastssz"
+	ssz "github.com/MEV-HEPU/fastssz"
 )
 
 // MarshalSSZ ssz marshals the VersionedBlindedBeaconBlock object

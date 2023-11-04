@@ -5,7 +5,7 @@ package v1
 import (
 	"time"
 
-	ssz "github.com/ferranbt/fastssz"
+	ssz "github.com/MEV-HEPU/fastssz"
 )
 
 // MarshalSSZ ssz marshals the ValidatorRegistration object

@@ -13,7 +13,7 @@
 
 package capella
 
-// Need to `go install github.com/ferranbt/fastssz/sszgen@latest` for this to work.
+// Need to `go install github.com/MEV-HEPU/fastssz/sszgen@latest` for this to work.
 //go:generate rm -f blstoexecutionchange_encoding.go signedblstoexecutionchange_encoding.go withdrawal.go
 //go:generate sszgen --path . --objs BLSToExecutionChange SignedBLSToExecutionChange Withdrawal
 //go:generate goimports -w blstoexecutionchange_encoding.go signedblstoexecutionchange_encoding.go withdrawal_encoding.go

@@ -4,7 +4,7 @@ package capella
 
 import (
 	"github.com/MEV-HEPU/go-eth2-client/spec/bellatrix"
-	ssz "github.com/ferranbt/fastssz"
+	ssz "github.com/MEV-HEPU/fastssz"
 )
 
 // MarshalSSZ ssz marshals the ExecutionPayload object

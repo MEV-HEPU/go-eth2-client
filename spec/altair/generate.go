@@ -13,7 +13,7 @@
 
 package altair
 
-// Need to `go install github.com/ferranbt/fastssz/sszgen@latest` for this to work.
+// Need to `go install github.com/MEV-HEPU/fastssz/sszgen@latest` for this to work.
 //go:generate rm -f beaconblock_encoding.go beaconblockbody_encoding.go beaconstate_encoding.go contributionandproof_encoding.go signedbeaconblock_encoding.go signedcontributionandproof_encoding.go syncaggregate_encoding.go syncaggregatorselectiondata_encoding.go synccommitteemessage_encoding.go
 //go:generate sszgen ../phase0 --path . --objs BeaconBlock,BeaconBlockBody,BeaconState,ContributionAndProof,SignedBeaconBlock,SignedContributionAndProof,SyncAggregate,SyncAggregatorSelectionData,SyncCommittee
 //go:generate goimports -w beaconblock_encoding.go beaconblockbody_encoding.go beaconstate_encoding.go contributionandproof_encoding.go signedbeaconblock_encoding.go signedcontributionandproof_encoding.go syncaggregate_encoding.go syncaggregatorselectiondata_encoding.go synccommitteemessage_encoding.go

@@ -4,7 +4,7 @@ package altair
 
 import (
 	"github.com/MEV-HEPU/go-eth2-client/spec/phase0"
-	ssz "github.com/ferranbt/fastssz"
+	ssz "github.com/MEV-HEPU/fastssz"
 )
 
 // MarshalSSZ ssz marshals the SyncCommitteeMessage object

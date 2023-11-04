@@ -6,7 +6,7 @@ package deneb
 import (
 	"github.com/MEV-HEPU/go-eth2-client/spec/bellatrix"
 	"github.com/MEV-HEPU/go-eth2-client/spec/capella"
-	ssz "github.com/ferranbt/fastssz"
+	ssz "github.com/MEV-HEPU/fastssz"
 	"github.com/holiman/uint256"
 )
 
