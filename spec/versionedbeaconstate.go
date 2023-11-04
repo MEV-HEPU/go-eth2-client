@@ -16,11 +16,11 @@ package spec
 import (
 	"errors"
 
-	"github.com/attestantio/go-eth2-client/spec/altair"
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/capella"
-	"github.com/attestantio/go-eth2-client/spec/deneb"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/MEV-HEPU/go-eth2-client/spec/altair"
+	"github.com/MEV-HEPU/go-eth2-client/spec/bellatrix"
+	"github.com/MEV-HEPU/go-eth2-client/spec/capella"
+	"github.com/MEV-HEPU/go-eth2-client/spec/deneb"
+	"github.com/MEV-HEPU/go-eth2-client/spec/phase0"
 )
 
 // VersionedBeaconState contains a versioned beacon state.

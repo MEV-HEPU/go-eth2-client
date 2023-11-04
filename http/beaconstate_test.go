@@ -18,9 +18,9 @@ import (
 	"os"
 	"testing"
 
-	client "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/http"
-	"github.com/attestantio/go-eth2-client/spec"
+	client "github.com/MEV-HEPU/go-eth2-client"
+	"github.com/MEV-HEPU/go-eth2-client/http"
+	"github.com/MEV-HEPU/go-eth2-client/spec"
 	"github.com/stretchr/testify/require"
 )
 

@@ -16,10 +16,10 @@ package deneb
 import (
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/spec/altair"
-	"github.com/attestantio/go-eth2-client/spec/capella"
-	"github.com/attestantio/go-eth2-client/spec/deneb"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/MEV-HEPU/go-eth2-client/spec/altair"
+	"github.com/MEV-HEPU/go-eth2-client/spec/capella"
+	"github.com/MEV-HEPU/go-eth2-client/spec/deneb"
+	"github.com/MEV-HEPU/go-eth2-client/spec/phase0"
 	"github.com/goccy/go-yaml"
 )
 

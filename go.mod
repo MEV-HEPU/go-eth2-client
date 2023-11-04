@@ -3,7 +3,7 @@ module github.com/MEV-HEPU/go-eth2-client
 go 1.20
 
 require (
-	github.com/MEV-HEPU/fastssz v0.1.2-patch
+	github.com/ferranbt/fastssz v0.1.3
 	github.com/goccy/go-yaml v1.9.2
 	github.com/golang/snappy v0.0.4
 	github.com/holiman/uint256 v1.2.2
@@ -12,7 +12,7 @@ require (
 	github.com/prysmaticlabs/go-bitfield v0.0.0-20210809151128-385d8c5e3fb7
 	github.com/r3labs/sse/v2 v2.7.4
 	github.com/rs/zerolog v1.26.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	golang.org/x/crypto v0.0.0-20211215165025-cf75a172585e
 	gotest.tools v2.2.0+incompatible
 )
@@ -41,7 +41,7 @@ require (
 	google.golang.org/protobuf v1.26.0 // indirect
 	gopkg.in/cenkalti/backoff.v1 v1.1.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 retract (

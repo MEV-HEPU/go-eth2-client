@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	eth2client "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/auto"
+	eth2client "github.com/MEV-HEPU/go-eth2-client"
+	"github.com/MEV-HEPU/go-eth2-client/auto"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 )

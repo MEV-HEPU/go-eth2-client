@@ -3,7 +3,7 @@
 package capella
 
 import (
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
+	"github.com/MEV-HEPU/go-eth2-client/spec/bellatrix"
 	ssz "github.com/ferranbt/fastssz"
 )
 

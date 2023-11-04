@@ -3,7 +3,7 @@
 package capella
 
 import (
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/MEV-HEPU/go-eth2-client/spec/phase0"
 	ssz "github.com/ferranbt/fastssz"
 )
 
